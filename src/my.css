@@ -1,0 +1,90 @@
+.bg
+{
+    background-color: blanchedalmond;
+    color: lightcoral;
+    font-family:"franklin gothic medium";
+    border: dashed 4px orchid;
+    border-radius: 15px;
+    width: 200px;
+    padding:30px 30px;
+}
+
+#block
+{
+   font-size: 86px; 
+   background-color:blanchedalmond;
+   width:100px;
+   height:100px;
+   margin:5px;
+   border:solid 2px black ;
+   border-radius:20px;
+}
+#block:hover
+{
+    background-color:rgb(243, 196, 125);
+}
+
+#board
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:;
+    background-color:burlywood;
+    width:450px;
+    height:500px;
+    margin:50px;
+    border:solid 2px black ;
+    border-radius:20px;  
+    text-align:center;
+      
+}
+
+#board-b1, #board-b2, #board-b3
+{
+    display:flex;
+    width:350px;
+    margin-left:50px;
+    cursor:pointer;
+} 
+#board-b1
+{
+    margin-top:35px;
+}
+
+#game-panel
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+#me-board
+{   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:burlywood;
+    width:300px;
+    height:500px;
+    margin:50px;
+    margin-left:0px;
+    border:solid 2px black ;
+    border-radius:20px;  
+    text-align:center;
+    padding-left:20px;    
+}
+
+#move
+{
+    background-color:blanchedalmond;
+    width:200px;
+    height:27px;
+    margin:4px;
+    font-size:23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:0px;
+    border:solid 2px black ;
+    border-radius:20px;  
+    text-align:center;    
+}
+#move:hover
+{
+    background-color:rgb(243, 196, 125);
+}
